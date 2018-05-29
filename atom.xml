@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://huile.moe/"/>
-  <updated>2018-05-14T00:43:55.969Z</updated>
+  <updated>2018-05-29T09:43:09.383Z</updated>
   <id>http://huile.moe/</id>
   
   <author>
@@ -17,44 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>testmd</title>
-    <link href="http://huile.moe/testmd/"/>
-    <id>http://huile.moe/testmd/</id>
-    <published>2018-05-14T00:43:17.000Z</published>
-    <updated>2018-05-14T00:43:55.969Z</updated>
+    <title>Build ELK in Docker</title>
+    <link href="http://huile.moe/build-elk-env-in-docker/"/>
+    <id>http://huile.moe/build-elk-env-in-docker/</id>
+    <published>2018-05-29T10:00:00.000Z</published>
+    <updated>2018-05-29T09:43:09.383Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ build md</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span clas
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://huile.moe/hello-world/"/>
-    <id>http://huile.moe/hello-world/</id>
-    <published>2018-05-10T05:47:37.595Z</published>
-    <updated>2018-05-10T05:47:37.596Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Before-build"><a href="#Before-build" class="headerlink" title="Before build"></a>Before build</h2><p>introduce what shall we do?<br>build env &amp; software introduce<br>there is a work demand</p><h2 id="ES-cluster"><a href="#ES-cluster" class="headerlink" title="ES cluster"></a>ES cluster</h2><p>docker part<br>es config<br>test</p><h2 id="Kibana-amp-Logstash"><a href="#Kibana-amp-Logstash" class="headerlink" title="Kibana &amp; Logstash"></a>Kibana &amp; Logstash</h2><p>docker part<br>kibana install &amp; config &amp; test<br>logstash install &amp; config &amp; test</p><h2 id="Summarize"><a href="#Summarize" class="headerlink" title="Summarize"></a>Summarize</h2><p>question<br>point<br>feture</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h2 id=&quot;Before-build&quot;&gt;&lt;a href=&quot;#Before-build&quot; class=&quot;headerlink&quot; title=&quot;Before build&quot;&gt;&lt;/a&gt;Before build&lt;/h2&gt;&lt;p&gt;introduce what shall we do?&lt;br
       
     
     </summary>
     
+    
+      <category term="elasticsearch" scheme="http://huile.moe/tags/elasticsearch/"/>
+    
+      <category term="docker" scheme="http://huile.moe/tags/docker/"/>
     
   </entry>
   
