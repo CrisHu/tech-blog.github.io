@@ -279,7 +279,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://huile.moe/build-elk-env-in-docker/">
+    <link itemprop="mainEntityOfPage" href="http://huile.moe/build-elk-in-docker/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="huile">
@@ -298,7 +298,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/build-elk-env-in-docker/" itemprop="url">
+                <a class="post-title-link" href="/build-elk-in-docker/" itemprop="url">
                   Build ELK in Docker
                 </a>
               
@@ -325,12 +325,24 @@
                 
               
 
-              <time title="Created: 2018-05-29 18:00:00 / Modified: 17:43:09" itemprop="dateCreated datePublished" datetime="2018-05-29T18:00:00+08:00">2018-05-29</time>
+              <time title="Created: 2018-05-29 18:00:00" itemprop="dateCreated datePublished" datetime="2018-05-29T18:00:00+08:00">2018-05-29</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-05-30 18:23:23" itemprop="dateModified" datetime="2018-05-30T18:23:23+08:00">2018-05-30</time>
               
             
           </span>
@@ -365,11 +377,10 @@
       
         
           
-            <h2 id="Before-build"><a href="#Before-build" class="headerlink" title="Before build"></a>Before build</h2><p>introduce what shall we do?<br>build env &amp; software introduce<br>there is a work demand</p>
+            <h2 id="Before-build"><a href="#Before-build" class="headerlink" title="Before build"></a>Before build</h2><p>There is a virtual work scene.The data is fast growth, caused mysql can&apos;t meet the needs of searching from huge data immediately. Just like using &apos;like&apos; in mysql select from millions of users data by &apos;user_name&apos; could cause service halt or request timeout. In order to adjust new demand such like this situation in modern IT work, the traditional SQL have been replaced partly by the elasticsearch which is a highly scalable open-source full-text search and analytics engine.Use it for the first time,let us think es as traditional db can store data.In this doc we just use it without introduction and <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html" target="_blank" rel="noopener">the full document(6.2.4)</a> is here(other softwares&apos; offical doc will be also paste out).<br>When you elasticsearch env has been built, there is a GUI console to interact with the port:9200 called <a href="https://www.elastic.co/guide/en/kibana/current/index.html" target="_blank" rel="noopener">Kinbana(6.2.4)</a> makes you use rest-api efficently.<br>And sometimes old web release system can&apos;t be stoped, so in the above case we would use <a href="https://www.elastic.co/guide/en/logstash/current/index.html" target="_blank" rel="noopener">Logstash(6.2.4)</a> to solve data consistency between mysql and new elasticsearch cluster.<br>My build env is on MacOS with 16G Mem, and the ELK docker structure is as blow.<br><img src="/build-elk-in-docker/structure.jpg"></p>
 <h2 id="ES-cluster"><a href="#ES-cluster" class="headerlink" title="ES cluster"></a>ES cluster</h2><p>docker part<br>es config<br>test</p>
 <h2 id="Kibana-amp-Logstash"><a href="#Kibana-amp-Logstash" class="headerlink" title="Kibana &amp; Logstash"></a>Kibana &amp; Logstash</h2><p>docker part<br>kibana install &amp; config &amp; test<br>logstash install &amp; config &amp; test</p>
-<h2 id="Summarize"><a href="#Summarize" class="headerlink" title="Summarize"></a>Summarize</h2><p>question<br>point<br>feture</p>
-
+<h2 id="Summarize"><a href="#Summarize" class="headerlink" title="Summarize"></a>Summarize</h2>
           
         
       

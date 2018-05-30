@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://huile.moe/"/>
-  <updated>2018-05-29T09:43:09.383Z</updated>
+  <updated>2018-05-30T10:23:23.288Z</updated>
   <id>http://huile.moe/</id>
   
   <author>
@@ -18,18 +18,18 @@
   
   <entry>
     <title>Build ELK in Docker</title>
-    <link href="http://huile.moe/build-elk-env-in-docker/"/>
-    <id>http://huile.moe/build-elk-env-in-docker/</id>
+    <link href="http://huile.moe/build-elk-in-docker/"/>
+    <id>http://huile.moe/build-elk-in-docker/</id>
     <published>2018-05-29T10:00:00.000Z</published>
-    <updated>2018-05-29T09:43:09.383Z</updated>
+    <updated>2018-05-30T10:23:23.288Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Before-build"><a href="#Before-build" class="headerlink" title="Before build"></a>Before build</h2><p>introduce what shall we do?<br>build env &amp; software introduce<br>there is a work demand</p><h2 id="ES-cluster"><a href="#ES-cluster" class="headerlink" title="ES cluster"></a>ES cluster</h2><p>docker part<br>es config<br>test</p><h2 id="Kibana-amp-Logstash"><a href="#Kibana-amp-Logstash" class="headerlink" title="Kibana &amp; Logstash"></a>Kibana &amp; Logstash</h2><p>docker part<br>kibana install &amp; config &amp; test<br>logstash install &amp; config &amp; test</p><h2 id="Summarize"><a href="#Summarize" class="headerlink" title="Summarize"></a>Summarize</h2><p>question<br>point<br>feture</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Before-build"><a href="#Before-build" class="headerlink" title="Before build"></a>Before build</h2><p>There is a virtual work scene.The data is fast growth, caused mysql can&apos;t meet the needs of searching from huge data immediately. Just like using &apos;like&apos; in mysql select from millions of users data by &apos;user_name&apos; could cause service halt or request timeout. In order to adjust new demand such like this situation in modern IT work, the traditional SQL have been replaced partly by the elasticsearch which is a highly scalable open-source full-text search and analytics engine.Use it for the first time,let us think es as traditional db can store data.In this doc we just use it without introduction and <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html" target="_blank" rel="noopener">the full document(6.2.4)</a> is here(other softwares&apos; offical doc will be also paste out).<br>When you elasticsearch env has been built, there is a GUI console to interact with the port:9200 called <a href="https://www.elastic.co/guide/en/kibana/current/index.html" target="_blank" rel="noopener">Kinbana(6.2.4)</a> makes you use rest-api efficently.<br>And sometimes old web release system can&apos;t be stoped, so in the above case we would use <a href="https://www.elastic.co/guide/en/logstash/current/index.html" target="_blank" rel="noopener">Logstash(6.2.4)</a> to solve data consistency between mysql and new elasticsearch cluster.<br>My build env is on MacOS with 16G Mem, and the ELK docker structure is as blow.<br><img src="/build-elk-in-docker/structure.jpg"></p><h2 id="ES-cluster"><a href="#ES-cluster" class="headerlink" title="ES cluster"></a>ES cluster</h2><p>docker part<br>es config<br>test</p><h2 id="Kibana-amp-Logstash"><a href="#Kibana-amp-Logstash" class="headerlink" title="Kibana &amp; Logstash"></a>Kibana &amp; Logstash</h2><p>docker part<br>kibana install &amp; config &amp; test<br>logstash install &amp; config &amp; test</p><h2 id="Summarize"><a href="#Summarize" class="headerlink" title="Summarize"></a>Summarize</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;Before-build&quot;&gt;&lt;a href=&quot;#Before-build&quot; class=&quot;headerlink&quot; title=&quot;Before build&quot;&gt;&lt;/a&gt;Before build&lt;/h2&gt;&lt;p&gt;introduce what shall we do?&lt;br
+        &lt;h2 id=&quot;Before-build&quot;&gt;&lt;a href=&quot;#Before-build&quot; class=&quot;headerlink&quot; title=&quot;Before build&quot;&gt;&lt;/a&gt;Before build&lt;/h2&gt;&lt;p&gt;There is a virtual work scene.
       
     
     </summary>
