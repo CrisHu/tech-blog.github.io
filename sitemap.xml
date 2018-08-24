@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://huile.moe/%E8%AE%B0%E5%BD%95%E4%B8%A4%E5%A4%A9%E7%9A%84%E9%9D%A2%E8%AF%95/</loc>
+    
+    <lastmod>2018-08-24T23:16:30.685Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://huile.moe/build-elk-in-docker/</loc>
     
     <lastmod>2018-08-24T22:53:33.073Z</lastmod>
